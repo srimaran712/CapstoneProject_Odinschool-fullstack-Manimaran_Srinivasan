@@ -166,14 +166,14 @@ label{
 }
 .login-heading{
     text-align:center;
-    width:80%;
+   
     margin:0px 7rem;
     font-family:'Poppins',sans-serif;
     
 }
 
 .login-input{
-    width:200px;
+    width:700px;
     border:none;
     padding:0.6rem 0.5rem;
     margin:1rem 0.5rem;
@@ -183,10 +183,10 @@ label{
 }
 .login-btn{
     border:none;
-    background:rgb(95, 224, 226);
+    background:rgb(18, 19, 19);
     color:white;
     width:300px;
-    margin:5px 20px;
+    margin:5px 10rem;
     padding:0.5rem 0rem;
     font-size:16px;
     font-weight:800;
