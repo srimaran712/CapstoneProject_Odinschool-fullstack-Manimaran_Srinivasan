@@ -34,7 +34,7 @@
 .sign-out{
     margin-left:100px;
     border:none;
-    background:rgb(255, 102, 0);
+    background:#FFDA8A;
     color:white;
     font-family:"Cabin",sans-serif;
     font-size:16px;
@@ -47,8 +47,8 @@
 }
 .form-box{
     max-width:80%;
-    padding:15px 15px;
-    margin:0rem 11rem;
+    padding:12px 15px;
+    margin:0rem 8rem;
 
 }
 .box{
@@ -76,13 +76,13 @@
 }
 .image-url{
     width:860px;
-    padding:0.6rem 1rem;
+    padding:0.5rem 1rem;
     margin-top:15px;
 }
 
 .audio-url{
     width:860px;
-    padding:0.6rem 1rem;
+    padding:0.5rem 1rem;
     margin-top:15px;
 }
 label{
@@ -98,13 +98,13 @@ label{
     margin-top:5px;
     font-size:16px;
     font-family:'Poppins',sans-serif;
-    background:rgb(185, 74, 226);
+    background:#FFDA8A;
     color:white;
     letter-spacing: 1px;
 }
 .heading{
-    font-size:22px;
-    padding:5px 0px;
+    font-size:21px;
+    padding:3px 0px;
     margin-left:15rem;
     font-family:'Poppins',sans-serif;
     letter-spacing: 1px;
