@@ -7,7 +7,7 @@ const bcrypt=require('bcryptjs')
 require('dotenv').config()// processing the environment variables
 const app=Express()
 //initializing the cors
-const PORT=process.env.Port
+const PORT=process.env.port
 console.log(PORT)
 app.use(cors())
 app.use(bodyParser.json())
