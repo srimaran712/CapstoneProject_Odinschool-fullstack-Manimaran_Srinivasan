@@ -11,7 +11,7 @@ const AdminCreationForm = () => {
   const handleSubmit= async(e)=>{
     e.preventDefault()
     try{
-     const res= await axios.post('http://localhost:8080/admin',{adminEmail,adminPassword})
+     const res= await axios.post('https://capstoneproject-odinschool-fullstack.onrender.com/admin',{adminEmail,adminPassword})
      setAdminEmail('')
      setAdminPassword('')
      setMessage(res.data.message)
