@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import {useState,useEffect} from 'react'
-import '../staticfiles/dashboard.css'
+import '../staticfiles/admin.css'
 
 
 const SongsList = () => {

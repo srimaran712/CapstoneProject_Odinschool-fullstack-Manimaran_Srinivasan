@@ -1,7 +1,4 @@
-*{
-    padding:0;
-    margin:0;
-}
+
 
 /*.main-container{
     margin:5rem 12rem;
@@ -27,3 +24,57 @@ label{
     border:none;
     background-color:#FFFFFF;
 }*/
+.list-container{
+    width:100%;
+    margin:10px 0px;
+    padding:1rem 0.5rem
+}
+.list-items{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    width:100%;
+
+}
+.list-item{
+    padding:0.5rem 1rem;
+    margin:5px 5px;
+    border:1px solid #000;
+    display:flex;
+    gap:15rem;
+    
+}
+.content-box{
+    margin-left:10rem;
+}
+.song-title{
+    font-family:'Poppins',sans-serif;
+    font-size:24px;
+    letter-spacing: 1px;
+    margin:5px 1px;
+}
+.movie-name{
+    font-family:'Cabin',sans-serif;
+    font-size:21px;
+    letter-spacing:1.5px;
+    margin:1px 1px;
+    color:rgb(62, 60, 60)
+}
+.artist{
+    text-transform:uppercase;
+    font-size:18px;
+    margin:10px 1px;
+    letter-spacing:1px;
+    color:rgb(50, 45, 45)
+}
+.remove-btn{
+    font-family:'Poppins',sans-serif;
+    font-size:14px;
+    border:none;
+    padding:10px 15px;
+    margin-left:30rem;
+    margin-top:2rem;
+    background:#FFD700;
+    border-radius:20px;
+
+}
