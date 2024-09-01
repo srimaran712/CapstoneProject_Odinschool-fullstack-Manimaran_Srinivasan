@@ -8,7 +8,7 @@ const SongsList = () => {
   const [songs,setSongs]=useState([])
   const deleteSong=async(id)=>{
     try{
-      const res= await axios.delete(`http://localhost:8080/songs/${id}`)
+      const res= await axios.delete(`https://capstoneproject-odinschool-fullstack.onrender.com/songs/${id}`)
       console.log(res.data.message)
     }catch(error){
       console.log(error)
@@ -17,7 +17,7 @@ const SongsList = () => {
 
   const fetchSongs=async ()=>{
    try{
-    const response= await axios.get('http://localhost:8080/songs')
+    const response= await axios.get('https://capstoneproject-odinschool-fullstack.onrender.com/songs')
     
     console.log(response.data.Songs)
     setSongs(response.data.Songs)

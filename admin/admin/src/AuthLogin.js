@@ -10,7 +10,7 @@ const AuthLogin = () => {
     const handleSubmit=async (e)=>{
         e.preventDefault()
     try{
-        const response=await  axios.post('http://localhost:8080/login',{email,password})
+        const response=await  axios.post('https://capstoneproject-odinschool-fullstack.onrender.com/login',{email,password})
       
       const {token}=response.data
       if(!token){
