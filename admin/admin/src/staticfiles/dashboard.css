@@ -17,7 +17,7 @@
 .navbar{
     display:flex;
     width:100%;
-    padding:10px 5px;
+    padding:8px 5px;
     align-items:center;
     gap:100px;
     justify-content: center;
@@ -47,15 +47,15 @@
 }
 .form-box{
     max-width:80%;
-    padding:12px 15px;
-    margin:0rem 7rem;
+    padding:10px 15px;
+    margin:0rem 8rem;
 
 }
 .box{
     display:flex;
     gap:25px;
     width:100%;
-    margin:20px 0px;
+    margin:18px 0px;
 }
 .box input{
     width:400px;
@@ -114,7 +114,7 @@ label{
 
 
 /*-------admin form---*/
-.main-container{
+.admin-container{
     margin:5rem 8rem;
 }
 .user-form{

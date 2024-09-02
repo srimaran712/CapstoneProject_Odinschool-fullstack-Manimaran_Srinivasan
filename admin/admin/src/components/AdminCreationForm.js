@@ -27,7 +27,7 @@ const AdminCreationForm = () => {
     
   }
   return (
-    <div className="main-container">
+    <div className="admin-container">
       <form className="user-form" onSubmit={handleSubmit}>
 
         <div className="boxes box-one">
