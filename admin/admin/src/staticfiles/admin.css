@@ -71,10 +71,11 @@ label{
     font-family:'Poppins',sans-serif;
     font-size:14px;
     border:none;
-    padding:10px 15px;
-    margin-left:30rem;
+    padding:8px 12px;
+    margin-left:20rem;
     margin-top:2rem;
-    background:#FFD700;
+    background:#FFDA8A;;
     border-radius:20px;
+    color:#fff;
 
 }
