@@ -43,12 +43,12 @@
 }
 .songs-container{
     width: 100%;
-    margin:3rem 1rem;
+    margin:3rem 5rem;
 }
 .form-box{
     max-width:80%;
     padding:10px 15px;
-    margin:0rem 8rem;
+    margin:0rem 10rem;
 
 }
 .box{
@@ -115,19 +115,19 @@ label{
 
 /*-------admin form---*/
 .admin-container{
-    margin:5rem 8rem;
+    margin:5rem 12rem;
 }
 .user-form{
     margin:0rem 6rem;
     background:rgb(236, 234, 234);
     padding:2rem 2rem;
-    max-width:65%;
+    max-width:60%;
 }
 .user-box{
     width:500px;
     padding:0.5rem 1rem;
     border:none;
-    margin:1rem 0rem;
+    margin:1rem 5rem;
     font-size:18px;
     font-family:'Cabin',sans-serif;
 }
@@ -137,7 +137,7 @@ label{
     background-color:#FFDA8A;
     width:400px;
     padding:0.5rem 1rem;
-    margin:5px 3rem;
+    margin:5px 6rem;
     color:#ffff;
     font-weight:400;
     font-family:'Poppins',sans-serif;
