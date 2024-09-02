@@ -43,12 +43,12 @@
 }
 .songs-container{
     width: 100%;
-    margin:5rem 1rem;
+    margin:3rem 1rem;
 }
 .form-box{
     max-width:80%;
     padding:12px 15px;
-    margin:0rem 8rem;
+    margin:0rem 7rem;
 
 }
 .box{
@@ -59,7 +59,7 @@
 }
 .box input{
     width:400px;
-    padding:0.6rem 1rem;
+    padding:0.5rem 1rem;
     margin-top:15px;
     font-size:18px;
     font-family:'Cabin',sans-serif;
@@ -89,12 +89,12 @@ label{
     font-family:'Cabin',sans-serif;
     font-size:18px;
     letter-spacing:1px;
-    padding:15px 1px;
+    padding:12px 1px;
 }
 .add-btn{
     border:none;
     width:900px;
-    padding:0.6rem 1rem;
+    padding:0.5rem 1rem;
     margin-top:5px;
     font-size:16px;
     font-family:'Poppins',sans-serif;
