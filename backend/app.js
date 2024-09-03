@@ -9,7 +9,9 @@ const app=Express()
 //initializing the cors
 const PORT=process.env.port
 console.log(PORT)
-app.use(cors())
+app.use(cors({
+    origin: '*',
+}))
 app.use(bodyParser.json())
 
 ///listening to port
