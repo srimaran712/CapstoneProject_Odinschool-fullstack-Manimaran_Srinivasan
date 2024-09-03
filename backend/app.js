@@ -11,6 +11,8 @@ const PORT=process.env.port
 console.log(PORT)
 app.use(cors({
     origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these methods
+  allowedHeaders: ['Content-Type', 'Authorization'],
 }))
 app.use(bodyParser.json())
 
