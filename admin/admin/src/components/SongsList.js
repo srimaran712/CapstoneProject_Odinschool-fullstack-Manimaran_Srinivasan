@@ -43,6 +43,7 @@ const SongsList = () => {
              <h2 className="song-title">{song.title}</h2>
               <h3 className="movie-name">{song.movie}</h3>
               <h4 className="artist">{song.artist}</h4>
+              <audio src={song.audio} controls/>
               <button className="remove-btn" onClick={()=>deleteSong(song._id)}>Remove Song</button>
               
               </div> 
