@@ -1,0 +1,323 @@
+.App{
+  background:#F7F2EC;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-areas: "navbar navbar  sidebar"
+                        "main-container main-container  sidebar"
+                         "audio audio  audio";
+}
+/*--#F7F2EC;*/
+
+/*---navbar--*/
+.navbar{
+  display:flex;
+  grid-area:navbar;
+  padding:15px 15px;
+  height:40px;
+  
+}
+.logo{
+  font-family:'Poppins',sans-serif;
+  font-size:23px;
+  font-weight:800;
+  letter-spacing:0.5px;
+  padding:0px 1rem;
+}
+.search{
+  border:none;
+  padding:0rem 15rem;
+  margin:0px 2rem;
+}
+.search-btn{
+  border:none;
+  color:#fff;
+  background:black;
+  font-family:'Poppins',sans-serif;
+  padding:0rem 1rem;
+  letter-spacing:0.4px;
+
+}
+
+
+
+/*----sidebar---*/
+.sidebar{
+  grid-area:sidebar;
+  background:#FFDA8A;
+  padding:15px 2rem;
+}
+.side-heading{
+  font-family:'Roboto',sans-serif;
+  font-size:20px;
+  font-weight:800;
+  letter-spacing:1px;
+ 
+
+}
+.song-items{
+  padding:2px 0px;
+  list-style: none;
+  overflow-y:scroll;
+  height:80%;
+}
+.song-items::-webkit-scrollbar{
+  display: none;
+}
+.song-item{
+  padding:6px 10px;
+  display:flex;
+  border:0.3px solid #8d87876b;
+  margin:15px 0px;
+  align-items:center;
+  height:75px;
+  justify-content: space-between;
+  border-radius:6px;
+  
+  
+
+}
+.song-box{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  
+  
+}
+.song-details{
+  margin-left:2rem;
+
+}
+.song-title{
+  font-family:'Roboto',sans-serif;
+  font-size:16px;
+  letter-spacing:1px;
+  color:rgb(38, 36, 36);
+
+}
+.song-artist{
+  font-family:"Montserrat",sans-serif;
+  letter-spacing:2px;
+  font-size:13px;
+  color:#5b5555;
+  font-weight:400;
+ 
+}
+.song-wish-icon{
+  border:0.3px solid #8d87876b;
+  padding:0.5rem 1rem;
+}
+/*----audio===*/
+.audio{
+  grid-area:audio;
+  background:#0B0C10;
+  padding:0.5rem 0rem;
+}
+.audio-box{
+  display:flex;
+  gap:6rem;
+  align-items:center;
+}
+.audio-title{
+  color:white;
+  font-family:'Montserrat',sans-serif;
+  letter-spacing:1px;
+  font-size:18px;
+  font-weight:200;
+
+
+}
+.hero{
+  background:#F3CE7D;
+  height:10rem;
+  padding:1rem 1rem;
+  width:90%;
+  margin:1rem 3rem;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.hero-heading{
+  font-family:'Montserrat',sans-serif;
+  font-size:25px;
+  font-weight:800;
+
+}
+.hero-btn{
+  border:none;
+  background:#090909;
+  color:#F3CE7D;
+  text-transform:uppercase;
+  padding:1rem 2rem;
+  font-size:16px;
+  letter-spacing:2px;
+
+}
+.hero-content{
+  font-family:'Poppins',sans-serif;
+  font-size:15px;
+  color:#484444
+}
+
+/*----main----*/
+.main-container{
+  grid-area:main-container
+}
+.top-artists{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  overflow:scroll
+}
+.top-artists::-webkit-scrollbar{
+  display:none;
+}
+.artist-info{
+  background:#fff;
+  border:none;
+  padding:1rem 1rem;
+}
+.artist-title{
+  font-family:'Poppins',sans-serif;
+  font-weight:600;
+  letter-spacing:1px;
+  font-size:15px;
+}
+.buttons{
+  display:flex;
+  gap:5rem;
+  height:100px;
+  align-items:center;
+}
+.control-btn{
+  border:none;
+  font-size:25px;
+  font-weight:800;
+  border-radius:50px;
+  
+ 
+}
+
+
+
+
+.rhap_container {
+  background-color: #2d2d2d; /* Set the background color */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow */
+  padding: 0rem 3rem; /* Add some padding */
+  color: #fff; /* Change text color */
+  display:flex;
+  align-items:center;
+  width:100%;
+  
+}
+.rhap_progress-section{
+  display:flex;
+  gap:1rem;
+  align-items:center;
+  margin-left:7rem;
+  margin-top:0.5rem;
+}
+.rhap_time {
+  color:#fff;
+  font-family:'Poppins',sans-serif;
+  font-size:16px;
+  display:flex;
+  letter-spacing:2px;
+
+}
+
+
+
+.rhap_controls-section {
+  display:flex;
+  gap:5rem;
+  
+
+}
+.rhap_controls-section button {
+  border:none;
+  padding:0.5rem 1rem;
+  font-size:40px;
+  background:none;
+  font-weight:800;
+  color:#fff
+  
+}
+
+
+.rhap_play-pause-button{
+  font-weight:800;
+  font-family:'Poppins',sans-serif;
+  border:5px solid linear-gradient(90deg, rgba(62,55,179,1) 0%, rgba(140,73,162,1) 41%, rgba(222,163,23,1) 91%, rgba(187,101,133,1) 100%);
+}
+.rhap_volume-container .rhap_volume-bar {
+  background: #ff6347; /* Change volume bar color */
+}
+
+
+@media (max-width: 1200px) {
+  .App {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "navbar navbar"
+      "main-container sidebar"
+      "audio audio";
+  }
+}
+
+@media (max-width: 860px) {
+  .App {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "navbar"
+      "main-container"
+      "sidebar"
+      "audio";
+  }
+  
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .App {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "navbar"
+      "main-container"
+      "audio";
+  }
+  
+  .sidebar {
+    display: none; /* Hide sidebar on smaller screens */
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .search {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  .audio {
+    padding: 1rem;
+  }
+
+  .rhap_container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .rhap_controls-section {
+    gap: 2rem;
+  }
+}
